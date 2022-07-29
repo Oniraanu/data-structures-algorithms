@@ -16,3 +16,4 @@ def birthdayCakeCandles(candles):
 
 lst = [82, 49, 82, 82, 41, 82, 15, 63, 38, 25]
 print(birthdayCakeCandles(lst))
+print('aaab' < 'aaac')

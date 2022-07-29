@@ -1,14 +1,22 @@
-def compareTriplets(a, b):
+# def compareTriplets(a, b):
     # Write your code here
-    count_a, count_b = [0, 0]
-    for i, j in zip(a, b):
-        if a[i] <= b[j]:
-            count_a[0] += 1
-        elif a[i] >= b[j]:
-            count_b[1] += 1
-    return [count_a, count_b]
-
-
+    # result = []
+    # for i, (a, b) in enumerate(zip(a, b)):
+    #     count_a = 0
+    #     count_b = 0
+    #     if a < b:
+    #         result.append(count_b)
+    #     elif a > b:
+    #         result.append(count_a)
+    #     else:
+    #         return 0
+    # return result
 x = [5, 6, 7]
 y = [3, 6, 10]
-print(compareTriplets(x, y))
+result = []
+for i, j in zip(x, y):
+    my_zip = i, j
+    print(my_zip)
+
+
+# print(compareTriplets(x, y))
