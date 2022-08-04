@@ -8,7 +8,7 @@ def digital_root(n):
         total += n[i]
         if total > 9:
             total = digital_root(total)
-    return total
+        return total
 
 #           OR
 #     while n > 9:
