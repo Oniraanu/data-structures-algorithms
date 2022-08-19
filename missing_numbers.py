@@ -9,7 +9,6 @@ def missingNumbers(arr, brr):
         else:
             missing.add(i)
     return list(sorted(missing))
-
     # a = Counter(arr)
     # b = Counter(brr)
     # return sorted((b - a).keys())
